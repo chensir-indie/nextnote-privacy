@@ -1,6 +1,6 @@
 # Privacy Policy of NextNote
 
-**Last Updated: August 17, 2025**
+**Last Updated: July 23, 2026**
 
 NextNote (“the App”, “we”, “our”, or “us”) respects your privacy and is committed to protecting your personal data. This Privacy Policy explains what information we collect, how we use it, how we protect it, and your rights.
 
@@ -14,6 +14,7 @@ When you use NextNote, we may collect the following types of information:
 - **Local Storage**: Notes and related files stored directly on your device.  
 - **iCloud Storage**: If enabled, notes are synced and backed up through Apple iCloud.  
 - **Internet Access**: Required for synchronization, backup, and connectivity with cloud services.  
+- **AI Content**: Only when you intentionally use an AI feature, the title, text, accepted outline, editing instruction, and other content needed to complete that request may be transmitted to our server and to Alibaba Cloud Model Studio (Bailian). AI organization may use web search to retrieve current public sources before generating a result. We do not send your notes to the AI service in the background when you are not using an AI feature.
 - **Analytics & Diagnostics** (via Firebase Analytics and Crashlytics):  
   - Device information (model, OS version, app version, language/region).  
   - App usage events (screen views, feature interactions, session duration).  
@@ -32,6 +33,7 @@ We use the information we collect to:
 - Store your notes securely on your device or in iCloud.  
 - Monitor stability, diagnose crashes, and improve performance.  
 - Understand general usage patterns to improve features and user experience.  
+- Perform the AI organization, editing, expansion, or platform-adaptation action you request, including retrieving current public web sources when required.
 
 We do **not** use your data for targeted advertising, nor do we sell your personal information.
 
@@ -39,14 +41,16 @@ We do **not** use your data for targeted advertising, nor do we sell your person
 
 ## 3. How We Share Information
 - We do not sell, rent, or trade your personal data.  
-- Notes are private to you and are not shared with third parties, except when you choose to back up via iCloud.  
+- Notes remain private unless transmission is required for a feature you intentionally invoke, such as iCloud synchronization, publishing, sharing, or AI assistance.
 - iCloud is provided by Apple, and the storage and transmission of data through iCloud is subject to [Apple’s Privacy Policy](https://www.apple.com/legal/privacy/).  
+- When you invoke an AI feature, the minimum content needed for that request is processed by Alibaba Cloud Model Studio (Bailian) in the China (Beijing) region. This may include note titles, note text, accepted outlines, and your editing instructions. Web-search queries derived from that content may be used to retrieve current public information. Alibaba Cloud processes this data under its applicable privacy and service terms.
 - Analytics and crash data are processed by Google as the provider of Firebase. For details, see [Google Privacy Policy](https://policies.google.com/privacy).  
 
 ---
 
 ## 4. Data Storage and Security
 - Your notes are stored either locally on your device or securely in iCloud.  
+- AI request content is transmitted over encrypted connections. NextNote does not place Alibaba Cloud API credentials in the app or expose them to users.
 - Analytics and crash reports collected by Firebase are stored for limited periods (typically up to **14 months** for Analytics, **90 days** for Crashlytics logs, unless configured otherwise).  
 - We use industry-standard measures to protect your data from unauthorized access or loss.  
 - No method of transmission or storage is 100% secure; we encourage you to keep your device protected.
@@ -59,6 +63,7 @@ NextNote integrates with:
 - **Apple iCloud**: For cloud synchronization and backup.  
 - **Firebase Analytics**: To measure usage patterns and app performance.  
 - **Firebase Crashlytics**: To collect crash logs and diagnostics for app stability.  
+- **Alibaba Cloud Model Studio (Bailian)**: To provide user-initiated AI generation, editing, content adaptation, and current-information retrieval in the China (Beijing) region.
 
 These services are governed by their own privacy policies.
 
@@ -72,13 +77,14 @@ Depending on your jurisdiction (e.g., GDPR, CCPA), you may have the following ri
 - **Deletion**: Delete your notes and account data.  
 - **Withdraw Consent**: Disable iCloud sync or revoke analytics/diagnostics at any time.  
 - **Opt-Out**: You may restrict analytics collection in your device or system privacy settings.  
+- **AI Choice**: You can avoid transmitting note content to Alibaba Cloud by not invoking AI features. Applying an AI result remains your choice.
 
 To exercise these rights, you may manage settings within your device or contact us directly.
 
 ---
 
 ## 7. International Data Transfers
-Data processed by Firebase may be stored and processed in data centers outside your country of residence. We rely on standard contractual safeguards or equivalent measures to protect your data during such transfers.
+Data processed by Firebase may be stored and processed in data centers outside your country of residence. User-initiated AI request content is processed by Alibaba Cloud Model Studio in the China (Beijing) region, which may involve a transfer to China if you use the App elsewhere. We rely on applicable contractual safeguards or equivalent measures to protect data during such transfers.
 
 ---
 
