@@ -23,5 +23,5 @@ A: Please contact us via email: 865525900@qq.com
 
 ## Policies
 
-- [Privacy Policy](https://yourname.github.io/nextnote-site/privacy)  
-- [Terms of Use](https://yourname.github.io/nextnote-site/agreement)  
+- [Privacy Policy](https://chensir-indie.github.io/nextnote-privacy/privacy)  
+- [Terms of Use](https://chensir-indie.github.io/nextnote-privacy/agreement)  
